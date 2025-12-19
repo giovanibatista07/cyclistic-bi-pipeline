@@ -1,0 +1,2 @@
+-- Cyclistic BI Pipeline
+-- Summer trends table for geospatial analysis
