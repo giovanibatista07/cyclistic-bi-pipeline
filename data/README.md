@@ -18,3 +18,13 @@ These tables exceed GitHub file size limits and reflect production-style BI outp
 ### Reproducibility
 All SQL required to recreate these tables is included in the `/sql` directory.
 Any reviewer can regenerate the outputs by executing the SQL in BigQuery.
+
+## Data Pipeline Overview
+
+This project follows a warehouse-first BI workflow:
+- Raw data queried from public BigQuery datasets
+- Curated reporting tables created in BigQuery
+- Data quality, distribution, and outlier checks applied
+- Outputs consumed by Tableau dashboards
+
+Large reporting tables are intentionally not stored in the repository.
