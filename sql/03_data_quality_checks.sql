@@ -1,3 +1,4 @@
+
 -- =========================================================
 -- 03_data_quality_checks.sql
 -- Data quality checks for Cyclistic reporting table
